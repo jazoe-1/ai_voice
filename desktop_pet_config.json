@@ -1,0 +1,51 @@
+{
+  "window": {
+    "width": 400,
+    "height": 500,
+    "opacity": 0.9,
+    "always_on_top": true,
+    "click_through": false,
+    "position": {
+      "x": "auto",
+      "y": "auto"
+    }
+  },
+  "model": {
+    "path": "Unitychan/runtime",
+    "scale": 1.0,
+    "offset_x": 0,
+    "offset_y": 0
+  },
+  "interaction": {
+    "frequency_level": 3,
+    "random_interval_min": 300,
+    "random_interval_max": 1200,
+    "enable_random_interaction": true,
+    "enable_click_interaction": true,
+    "enable_drag": true
+  },
+  "behavior": {
+    "idle_variation": true,
+    "enable_physics": true,
+    "enable_expressions": true,
+    "greeting_on_startup": true,
+    "passive_mode_after_hours": true
+  },
+  "performance": {
+    "quality_level": 3,
+    "auto_adjust": true,
+    "max_memory_usage_mb": 200,
+    "target_fps": 30
+  },
+  "assistant": {
+    "enable_bridge": true,
+    "response_to_voice": true,
+    "proactive_suggestions": true
+  },
+  "ui": {
+    "show_speech_bubbles": true,
+    "bubble_duration": 5,
+    "enable_animations": true,
+    "theme": "light"
+  }
+}

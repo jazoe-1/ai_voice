@@ -1,0 +1,14 @@
+# texture.py
+# Texture class extracted from renderer.py
+import logging
+from OpenGL.GL import *
+
+logger = logging.getLogger(__name__)
+
+class Texture:
+    """OpenGL纹理"""
+
+    def __init__(self, texture_id: int, width: int, height: int):
+        self.id = texture_id
+        self.width = width
+        self.height = height 

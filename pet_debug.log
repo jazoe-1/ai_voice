@@ -1,0 +1,957 @@
+2025-04-09 19:54:42,912 - root - INFO - 开始桌面宠物测试
+2025-04-09 19:54:42,912 - root - INFO - === 检查关键模块导入 ===
+2025-04-09 19:54:42,915 - root - INFO - OpenGL版本: 3.1.9
+2025-04-09 19:54:42,938 - OpenGL.acceleratesupport - DEBUG - OpenGL_accelerate module loaded
+2025-04-09 19:54:43,029 - OpenGL.arrays.arraydatatype - DEBUG - Using accelerated ArrayDatatype
+2025-04-09 19:54:43,167 - root - INFO - OpenGL.GL模块可用
+2025-04-09 19:54:43,408 - root - INFO - PIL可用
+2025-04-09 19:54:43,410 - root - INFO - ParameterManager模块可用
+2025-04-09 19:54:43,433 - root - INFO - PetWindow模块可用
+2025-04-09 19:54:43,448 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_ATTACHED_OBJECTS_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_DELETE_STATUS_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_INFO_LOG_LENGTH_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SHADER_SOURCE_LENGTH_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SUBTYPE_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_VALIDATE_STATUS_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_PROGRAM_OBJECT_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_SHADER_OBJECT_ARB
+2025-04-09 19:54:43,449 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GLhalfARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glAttachObjectARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDeleteObjectARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDetachObjectARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetAttachedObjectsARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetHandleARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetInfoLogARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterfvARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterivARB
+2025-04-09 19:54:43,450 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glInitShaderObjectsARB
+2025-04-09 19:54:43,451 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.GLhalfARB
+2025-04-09 19:54:43,451 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.glInitFragmentShaderARB
+2025-04-09 19:54:43,451 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTES_ARB
+2025-04-09 19:54:43,451 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB
+2025-04-09 19:54:43,451 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GLhalfARB
+2025-04-09 19:54:43,451 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glGetObjectParameterivARB
+2025-04-09 19:54:43,451 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glInitVertexShaderARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_STACK_DEPTH_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX0_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX10_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX11_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX12_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX13_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX14_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX15_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX16_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX17_ARB
+2025-04-09 19:54:43,452 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX18_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX19_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX1_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX20_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX21_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX22_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX23_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX24_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX25_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX26_ARB
+2025-04-09 19:54:43,453 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX27_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX28_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX29_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX2_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX30_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX31_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX3_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX4_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX5_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX6_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX7_ARB
+2025-04-09 19:54:43,454 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX8_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX9_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ATTRIBS_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ENV_PARAMETERS_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRICES_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 19:54:43,455 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_PARAMETERS_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_TEMPORARIES_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ATTRIBS_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_BINDING_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_POSITION_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_STRING_ARB
+2025-04-09 19:54:43,456 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ASCII_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_LENGTH_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_PARAMETERS_ARB
+2025-04-09 19:54:43,457 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_STRING_ARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_TEMPORARIES_ARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_TRANSPOSE_CURRENT_MATRIX_ARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_VERTEX_PROGRAM_ARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GLhalfARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glBindProgramARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glDeleteProgramsARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGenProgramsARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterdvARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterfvARB
+2025-04-09 19:54:43,458 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterdvARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterfvARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramStringARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramivARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glInitVertexProgramARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dvARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fvARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dvARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fvARB
+2025-04-09 19:54:43,459 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramStringARB
+2025-04-09 19:54:43,460 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB
+2025-04-09 19:54:43,460 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB
+2025-04-09 19:54:43,460 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_VERTEX_VARYING_COMPONENTS_ARB
+2025-04-09 19:54:43,461 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GLhalfARB
+2025-04-09 19:54:43,461 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glFramebufferTextureFaceARB
+2025-04-09 19:54:43,461 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glInitGeometryShader4ARB
+2025-04-09 19:54:43,462 - root - INFO - Renderer模块可用
+2025-04-09 19:54:43,478 - root - INFO - PetManager模块可用
+2025-04-09 19:55:45,336 - root - INFO - 开始桌面宠物测试
+2025-04-09 19:55:45,336 - root - INFO - === 检查关键模块导入 ===
+2025-04-09 19:55:45,338 - root - INFO - OpenGL版本: 3.1.9
+2025-04-09 19:55:45,361 - OpenGL.acceleratesupport - DEBUG - OpenGL_accelerate module loaded
+2025-04-09 19:55:45,372 - OpenGL.arrays.arraydatatype - DEBUG - Using accelerated ArrayDatatype
+2025-04-09 19:55:45,472 - root - INFO - OpenGL.GL模块可用
+2025-04-09 19:55:45,581 - root - INFO - PIL可用
+2025-04-09 19:55:45,583 - root - INFO - ParameterManager模块可用
+2025-04-09 19:55:45,585 - root - INFO - PetWindow模块可用
+2025-04-09 19:55:45,596 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_ATTACHED_OBJECTS_ARB
+2025-04-09 19:55:45,596 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_DELETE_STATUS_ARB
+2025-04-09 19:55:45,596 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_INFO_LOG_LENGTH_ARB
+2025-04-09 19:55:45,596 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SHADER_SOURCE_LENGTH_ARB
+2025-04-09 19:55:45,596 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SUBTYPE_ARB
+2025-04-09 19:55:45,596 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_VALIDATE_STATUS_ARB
+2025-04-09 19:55:45,596 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_PROGRAM_OBJECT_ARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_SHADER_OBJECT_ARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GLhalfARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glAttachObjectARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDeleteObjectARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDetachObjectARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetAttachedObjectsARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetHandleARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetInfoLogARB
+2025-04-09 19:55:45,597 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterfvARB
+2025-04-09 19:55:45,598 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterivARB
+2025-04-09 19:55:45,598 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glInitShaderObjectsARB
+2025-04-09 19:55:45,598 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.GLhalfARB
+2025-04-09 19:55:45,598 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.glInitFragmentShaderARB
+2025-04-09 19:55:45,599 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTES_ARB
+2025-04-09 19:55:45,599 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB
+2025-04-09 19:55:45,599 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GLhalfARB
+2025-04-09 19:55:45,599 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glGetObjectParameterivARB
+2025-04-09 19:55:45,599 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glInitVertexShaderARB
+2025-04-09 19:55:45,600 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_ARB
+2025-04-09 19:55:45,600 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_STACK_DEPTH_ARB
+2025-04-09 19:55:45,600 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX0_ARB
+2025-04-09 19:55:45,600 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX10_ARB
+2025-04-09 19:55:45,600 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX11_ARB
+2025-04-09 19:55:45,600 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX12_ARB
+2025-04-09 19:55:45,601 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX13_ARB
+2025-04-09 19:55:45,601 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX14_ARB
+2025-04-09 19:55:45,601 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX15_ARB
+2025-04-09 19:55:45,601 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX16_ARB
+2025-04-09 19:55:45,601 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX17_ARB
+2025-04-09 19:55:45,601 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX18_ARB
+2025-04-09 19:55:45,602 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX19_ARB
+2025-04-09 19:55:45,602 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX1_ARB
+2025-04-09 19:55:45,602 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX20_ARB
+2025-04-09 19:55:45,602 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX21_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX22_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX23_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX24_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX25_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX26_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX27_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX28_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX29_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX2_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX30_ARB
+2025-04-09 19:55:45,603 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX31_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX3_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX4_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX5_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX6_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX7_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX8_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX9_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ATTRIBS_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ENV_PARAMETERS_ARB
+2025-04-09 19:55:45,604 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 19:55:45,605 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB
+2025-04-09 19:55:45,605 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRICES_ARB
+2025-04-09 19:55:45,605 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB
+2025-04-09 19:55:45,605 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 19:55:45,605 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 19:55:45,605 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 19:55:45,606 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 19:55:45,606 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 19:55:45,606 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_PARAMETERS_ARB
+2025-04-09 19:55:45,606 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_TEMPORARIES_ARB
+2025-04-09 19:55:45,606 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ATTRIBS_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_BINDING_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_POSITION_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_STRING_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ASCII_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_LENGTH_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 19:55:45,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_PARAMETERS_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_STRING_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_TEMPORARIES_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_TRANSPOSE_CURRENT_MATRIX_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_VERTEX_PROGRAM_ARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GLhalfARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glBindProgramARB
+2025-04-09 19:55:45,608 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glDeleteProgramsARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGenProgramsARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterdvARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterfvARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterdvARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterfvARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramStringARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramivARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glInitVertexProgramARB
+2025-04-09 19:55:45,609 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dARB
+2025-04-09 19:55:45,610 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dvARB
+2025-04-09 19:55:45,610 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fARB
+2025-04-09 19:55:45,610 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fvARB
+2025-04-09 19:55:45,610 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dARB
+2025-04-09 19:55:45,610 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dvARB
+2025-04-09 19:55:45,610 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fARB
+2025-04-09 19:55:45,610 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fvARB
+2025-04-09 19:55:45,611 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramStringARB
+2025-04-09 19:55:45,611 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB
+2025-04-09 19:55:45,611 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB
+2025-04-09 19:55:45,612 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_VERTEX_VARYING_COMPONENTS_ARB
+2025-04-09 19:55:45,612 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GLhalfARB
+2025-04-09 19:55:45,612 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glFramebufferTextureFaceARB
+2025-04-09 19:55:45,612 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glInitGeometryShader4ARB
+2025-04-09 19:55:45,613 - root - INFO - Renderer模块可用
+2025-04-09 19:55:45,617 - root - INFO - PetManager模块可用
+2025-04-09 19:55:45,952 - root - INFO - OpenGL供应商: NVIDIA Corporation
+2025-04-09 19:55:45,952 - root - INFO - OpenGL渲染器: NVIDIA GeForce RTX 2080 Ti/PCIe/SSE2
+2025-04-09 19:55:45,953 - root - INFO - OpenGL版本: 4.6.0 NVIDIA 572.83
+2025-04-09 19:55:45,969 - root - INFO - === 检查关键路径 ===
+2025-04-09 19:55:45,969 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet 存在: True
+2025-04-09 19:55:45,969 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core 存在: True
+2025-04-09 19:55:45,969 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\renderer.py 存在: True
+2025-04-09 19:55:45,969 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\window.py 存在: True
+2025-04-09 19:55:45,971 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan 存在: True
+2025-04-09 19:55:45,971 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime 存在: True
+2025-04-09 19:55:45,971 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime\unitychan.model3.json 存在: True
+2025-04-09 19:55:45,971 - root - INFO - 文件检查: D:\AI\ai_voice\models\Unitychan 存在: False
+2025-04-09 19:55:45,971 - root - INFO - === 开始初始化PetManager ===
+2025-04-09 19:55:45,972 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-09 19:55:45,972 - root - INFO - 创建PetManager实例...
+2025-04-09 19:55:45,978 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-09 19:55:45,979 - root - INFO - 启动桌面宠物...
+2025-04-09 19:55:45,980 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-09 19:55:45,981 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-09 19:55:45,982 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-09 19:55:45,982 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-09 19:55:46,023 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-09 19:55:46,023 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-09 19:55:46,025 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-09 19:55:46,066 - root - INFO - 着色器编译成功
+2025-04-09 19:55:46,071 - desktop_pet.core.renderer - ERROR - OpenGL渲染器初始化失败: No module named 'desktop_pet.core.texture'
+2025-04-09 19:55:49,883 - desktop_pet.pet_manager - DEBUG - Loading motion: ./Unitychan/runtime\motion\idle_01.motion3.json
+2025-04-09 19:59:29,176 - root - INFO - 开始桌面宠物测试
+2025-04-09 19:59:29,176 - root - INFO - === 检查关键模块导入 ===
+2025-04-09 19:59:29,178 - root - INFO - OpenGL版本: 3.1.9
+2025-04-09 19:59:29,219 - OpenGL.acceleratesupport - DEBUG - OpenGL_accelerate module loaded
+2025-04-09 19:59:29,228 - OpenGL.arrays.arraydatatype - DEBUG - Using accelerated ArrayDatatype
+2025-04-09 19:59:29,303 - root - INFO - OpenGL.GL模块可用
+2025-04-09 19:59:29,493 - root - INFO - PIL可用
+2025-04-09 19:59:29,496 - root - INFO - ParameterManager模块可用
+2025-04-09 19:59:29,505 - root - INFO - PetWindow模块可用
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_ATTACHED_OBJECTS_ARB
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_DELETE_STATUS_ARB
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_INFO_LOG_LENGTH_ARB
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SHADER_SOURCE_LENGTH_ARB
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SUBTYPE_ARB
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_VALIDATE_STATUS_ARB
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_PROGRAM_OBJECT_ARB
+2025-04-09 19:59:29,517 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_SHADER_OBJECT_ARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GLhalfARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glAttachObjectARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDeleteObjectARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDetachObjectARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetAttachedObjectsARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetHandleARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetInfoLogARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterfvARB
+2025-04-09 19:59:29,518 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterivARB
+2025-04-09 19:59:29,519 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glInitShaderObjectsARB
+2025-04-09 19:59:29,519 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.GLhalfARB
+2025-04-09 19:59:29,519 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.glInitFragmentShaderARB
+2025-04-09 19:59:29,519 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTES_ARB
+2025-04-09 19:59:29,519 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB
+2025-04-09 19:59:29,520 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GLhalfARB
+2025-04-09 19:59:29,520 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glGetObjectParameterivARB
+2025-04-09 19:59:29,520 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glInitVertexShaderARB
+2025-04-09 19:59:29,520 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_ARB
+2025-04-09 19:59:29,520 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_STACK_DEPTH_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX0_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX10_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX11_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX12_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX13_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX14_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX15_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX16_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX17_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX18_ARB
+2025-04-09 19:59:29,521 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX19_ARB
+2025-04-09 19:59:29,522 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX1_ARB
+2025-04-09 19:59:29,522 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX20_ARB
+2025-04-09 19:59:29,523 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX21_ARB
+2025-04-09 19:59:29,524 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX22_ARB
+2025-04-09 19:59:29,524 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX23_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX24_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX25_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX26_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX27_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX28_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX29_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX2_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX30_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX31_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX3_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX4_ARB
+2025-04-09 19:59:29,525 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX5_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX6_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX7_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX8_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX9_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ATTRIBS_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ENV_PARAMETERS_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRICES_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB
+2025-04-09 19:59:29,526 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 19:59:29,527 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 19:59:29,527 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 19:59:29,527 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_PARAMETERS_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_TEMPORARIES_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ATTRIBS_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_BINDING_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_POSITION_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_STRING_ARB
+2025-04-09 19:59:29,528 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ASCII_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_LENGTH_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_PARAMETERS_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_STRING_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_TEMPORARIES_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB
+2025-04-09 19:59:29,529 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_TRANSPOSE_CURRENT_MATRIX_ARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_VERTEX_PROGRAM_ARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GLhalfARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glBindProgramARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glDeleteProgramsARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGenProgramsARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterdvARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterfvARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterdvARB
+2025-04-09 19:59:29,530 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterfvARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramStringARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramivARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glInitVertexProgramARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dvARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fvARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dvARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fvARB
+2025-04-09 19:59:29,531 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramStringARB
+2025-04-09 19:59:29,532 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB
+2025-04-09 19:59:29,532 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB
+2025-04-09 19:59:29,532 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_VERTEX_VARYING_COMPONENTS_ARB
+2025-04-09 19:59:29,533 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GLhalfARB
+2025-04-09 19:59:29,533 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glFramebufferTextureFaceARB
+2025-04-09 19:59:29,533 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glInitGeometryShader4ARB
+2025-04-09 19:59:29,534 - root - INFO - Renderer模块可用
+2025-04-09 19:59:29,539 - root - INFO - PetManager模块可用
+2025-04-09 19:59:30,346 - root - INFO - OpenGL供应商: NVIDIA Corporation
+2025-04-09 19:59:30,347 - root - INFO - OpenGL渲染器: NVIDIA GeForce RTX 2080 Ti/PCIe/SSE2
+2025-04-09 19:59:30,347 - root - INFO - OpenGL版本: 4.6.0 NVIDIA 572.83
+2025-04-09 19:59:30,368 - root - INFO - === 检查关键路径 ===
+2025-04-09 19:59:30,369 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet 存在: True
+2025-04-09 19:59:30,369 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core 存在: True
+2025-04-09 19:59:30,370 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\renderer.py 存在: True
+2025-04-09 19:59:30,370 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\window.py 存在: True
+2025-04-09 19:59:30,370 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan 存在: True
+2025-04-09 19:59:30,370 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime 存在: True
+2025-04-09 19:59:30,371 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime\unitychan.model3.json 存在: True
+2025-04-09 19:59:30,371 - root - INFO - 文件检查: D:\AI\ai_voice\models\Unitychan 存在: False
+2025-04-09 19:59:30,371 - root - INFO - === 开始初始化PetManager ===
+2025-04-09 19:59:30,372 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-09 19:59:30,372 - root - INFO - 创建PetManager实例...
+2025-04-09 19:59:30,381 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-09 19:59:30,382 - root - INFO - 启动桌面宠物...
+2025-04-09 19:59:30,383 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-09 19:59:30,385 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-09 19:59:30,386 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-09 19:59:30,386 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-09 19:59:30,420 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-09 19:59:30,421 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-09 19:59:30,422 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-09 19:59:30,461 - root - INFO - 着色器编译成功
+2025-04-09 19:59:30,481 - desktop_pet.core.renderer - ERROR - OpenGL渲染器初始化失败: No module named 'desktop_pet.core.texture'
+2025-04-09 19:59:33,215 - desktop_pet.pet_manager - DEBUG - Loading motion: ./Unitychan/runtime\motion\idle_01.motion3.json
+2025-04-09 20:06:17,885 - root - INFO - 开始桌面宠物测试
+2025-04-09 20:06:17,889 - root - INFO - === 检查关键模块导入 ===
+2025-04-09 20:06:17,899 - root - INFO - OpenGL版本: 3.1.9
+2025-04-09 20:06:18,323 - OpenGL.acceleratesupport - DEBUG - OpenGL_accelerate module loaded
+2025-04-09 20:06:18,981 - OpenGL.arrays.arraydatatype - DEBUG - Using accelerated ArrayDatatype
+2025-04-09 20:06:22,890 - root - INFO - OpenGL.GL模块可用
+2025-04-09 20:06:25,465 - root - INFO - PIL可用
+2025-04-09 20:06:25,571 - root - INFO - ParameterManager模块可用
+2025-04-09 20:06:26,137 - root - INFO - PetWindow模块可用
+2025-04-09 20:06:26,503 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_ATTACHED_OBJECTS_ARB
+2025-04-09 20:06:26,504 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_DELETE_STATUS_ARB
+2025-04-09 20:06:26,511 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_INFO_LOG_LENGTH_ARB
+2025-04-09 20:06:26,551 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SHADER_SOURCE_LENGTH_ARB
+2025-04-09 20:06:26,551 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SUBTYPE_ARB
+2025-04-09 20:06:26,552 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_VALIDATE_STATUS_ARB
+2025-04-09 20:06:26,552 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_PROGRAM_OBJECT_ARB
+2025-04-09 20:06:26,552 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_SHADER_OBJECT_ARB
+2025-04-09 20:06:26,552 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GLhalfARB
+2025-04-09 20:06:26,553 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glAttachObjectARB
+2025-04-09 20:06:26,553 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDeleteObjectARB
+2025-04-09 20:06:26,553 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDetachObjectARB
+2025-04-09 20:06:26,553 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetAttachedObjectsARB
+2025-04-09 20:06:26,559 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetHandleARB
+2025-04-09 20:06:26,559 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetInfoLogARB
+2025-04-09 20:06:26,559 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterfvARB
+2025-04-09 20:06:26,559 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterivARB
+2025-04-09 20:06:26,560 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glInitShaderObjectsARB
+2025-04-09 20:06:26,576 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.GLhalfARB
+2025-04-09 20:06:26,584 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.glInitFragmentShaderARB
+2025-04-09 20:06:26,607 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTES_ARB
+2025-04-09 20:06:26,615 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB
+2025-04-09 20:06:26,632 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GLhalfARB
+2025-04-09 20:06:26,632 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glGetObjectParameterivARB
+2025-04-09 20:06:26,632 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glInitVertexShaderARB
+2025-04-09 20:06:26,632 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_STACK_DEPTH_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX0_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX10_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX11_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX12_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX13_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX14_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX15_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX16_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX17_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX18_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX19_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX1_ARB
+2025-04-09 20:06:26,633 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX20_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX21_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX22_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX23_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX24_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX25_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX26_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX27_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX28_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX29_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX2_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX30_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX31_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX3_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX4_ARB
+2025-04-09 20:06:26,634 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX5_ARB
+2025-04-09 20:06:26,655 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX6_ARB
+2025-04-09 20:06:26,655 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX7_ARB
+2025-04-09 20:06:26,655 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX8_ARB
+2025-04-09 20:06:26,655 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX9_ARB
+2025-04-09 20:06:26,656 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 20:06:26,656 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ATTRIBS_ARB
+2025-04-09 20:06:26,656 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ENV_PARAMETERS_ARB
+2025-04-09 20:06:26,656 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 20:06:26,656 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB
+2025-04-09 20:06:26,656 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRICES_ARB
+2025-04-09 20:06:26,656 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB
+2025-04-09 20:06:26,657 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 20:06:26,657 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 20:06:26,665 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 20:06:26,665 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 20:06:26,665 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 20:06:26,665 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_PARAMETERS_ARB
+2025-04-09 20:06:26,665 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_TEMPORARIES_ARB
+2025-04-09 20:06:26,666 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 20:06:26,666 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ATTRIBS_ARB
+2025-04-09 20:06:26,666 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_BINDING_ARB
+2025-04-09 20:06:26,666 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_POSITION_ARB
+2025-04-09 20:06:26,666 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_STRING_ARB
+2025-04-09 20:06:26,666 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ARB
+2025-04-09 20:06:26,667 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ASCII_ARB
+2025-04-09 20:06:26,679 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 20:06:26,679 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_LENGTH_ARB
+2025-04-09 20:06:26,679 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 20:06:26,679 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 20:06:26,679 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_PARAMETERS_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_STRING_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_TEMPORARIES_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_TRANSPOSE_CURRENT_MATRIX_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_VERTEX_PROGRAM_ARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GLhalfARB
+2025-04-09 20:06:26,680 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glBindProgramARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glDeleteProgramsARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGenProgramsARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterdvARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterfvARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterdvARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterfvARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramStringARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramivARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glInitVertexProgramARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dvARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fvARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dvARB
+2025-04-09 20:06:26,681 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fARB
+2025-04-09 20:06:26,682 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fvARB
+2025-04-09 20:06:26,682 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramStringARB
+2025-04-09 20:06:27,040 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB
+2025-04-09 20:06:27,143 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB
+2025-04-09 20:06:27,144 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_VERTEX_VARYING_COMPONENTS_ARB
+2025-04-09 20:06:27,144 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GLhalfARB
+2025-04-09 20:06:27,144 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glFramebufferTextureFaceARB
+2025-04-09 20:06:27,145 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glInitGeometryShader4ARB
+2025-04-09 20:06:27,176 - root - INFO - Renderer模块可用
+2025-04-09 20:06:27,424 - root - INFO - PetManager模块可用
+2025-04-09 20:06:31,243 - root - INFO - OpenGL供应商: NVIDIA Corporation
+2025-04-09 20:06:31,243 - root - INFO - OpenGL渲染器: NVIDIA GeForce RTX 2080 Ti/PCIe/SSE2
+2025-04-09 20:06:31,248 - root - INFO - OpenGL版本: 4.6.0 NVIDIA 572.83
+2025-04-09 20:06:31,269 - root - INFO - === 检查关键路径 ===
+2025-04-09 20:06:31,269 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet 存在: True
+2025-04-09 20:06:31,269 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core 存在: True
+2025-04-09 20:06:31,270 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\renderer.py 存在: True
+2025-04-09 20:06:31,270 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\window.py 存在: True
+2025-04-09 20:06:31,270 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan 存在: True
+2025-04-09 20:06:31,270 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime 存在: True
+2025-04-09 20:06:31,274 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime\unitychan.model3.json 存在: True
+2025-04-09 20:06:31,289 - root - INFO - 文件检查: D:\AI\ai_voice\models\Unitychan 存在: False
+2025-04-09 20:06:31,289 - root - INFO - === 开始初始化PetManager ===
+2025-04-09 20:06:31,308 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-09 20:06:31,309 - root - INFO - 创建PetManager实例...
+2025-04-09 20:06:31,316 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-09 20:06:31,336 - root - INFO - 启动桌面宠物...
+2025-04-09 20:06:31,337 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-09 20:06:31,398 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-09 20:06:31,398 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-09 20:06:31,398 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-09 20:06:31,479 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-09 20:06:31,479 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-09 20:06:31,481 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-09 20:06:31,825 - root - INFO - 着色器编译成功
+2025-04-09 20:06:31,888 - root - INFO - 已创建调试网格和纹理
+2025-04-09 20:06:31,888 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-09 20:06:31,914 - desktop_pet.pet_manager - DEBUG - Loading motion: ./Unitychan/runtime\motion\idle_01.motion3.json
+2025-04-09 20:18:58,688 - root - INFO - 开始桌面宠物测试
+2025-04-09 20:18:58,689 - root - INFO - === 检查关键模块导入 ===
+2025-04-09 20:18:58,692 - root - INFO - OpenGL版本: 3.1.9
+2025-04-09 20:18:58,736 - OpenGL.acceleratesupport - DEBUG - OpenGL_accelerate module loaded
+2025-04-09 20:18:58,759 - OpenGL.arrays.arraydatatype - DEBUG - Using accelerated ArrayDatatype
+2025-04-09 20:18:58,902 - root - INFO - OpenGL.GL模块可用
+2025-04-09 20:18:59,145 - root - INFO - PIL可用
+2025-04-09 20:18:59,148 - root - INFO - ParameterManager模块可用
+2025-04-09 20:18:59,155 - root - INFO - PetWindow模块可用
+2025-04-09 20:18:59,170 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_ATTACHED_OBJECTS_ARB
+2025-04-09 20:18:59,170 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_DELETE_STATUS_ARB
+2025-04-09 20:18:59,171 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_INFO_LOG_LENGTH_ARB
+2025-04-09 20:18:59,171 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SHADER_SOURCE_LENGTH_ARB
+2025-04-09 20:18:59,171 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_SUBTYPE_ARB
+2025-04-09 20:18:59,171 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_OBJECT_VALIDATE_STATUS_ARB
+2025-04-09 20:18:59,171 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_PROGRAM_OBJECT_ARB
+2025-04-09 20:18:59,171 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GL_SHADER_OBJECT_ARB
+2025-04-09 20:18:59,172 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.GLhalfARB
+2025-04-09 20:18:59,172 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glAttachObjectARB
+2025-04-09 20:18:59,172 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDeleteObjectARB
+2025-04-09 20:18:59,172 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glDetachObjectARB
+2025-04-09 20:18:59,172 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetAttachedObjectsARB
+2025-04-09 20:18:59,172 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetHandleARB
+2025-04-09 20:18:59,173 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetInfoLogARB
+2025-04-09 20:18:59,173 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterfvARB
+2025-04-09 20:18:59,173 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glGetObjectParameterivARB
+2025-04-09 20:18:59,173 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.shader_objects.glInitShaderObjectsARB
+2025-04-09 20:18:59,173 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.GLhalfARB
+2025-04-09 20:18:59,174 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.fragment_shader.glInitFragmentShaderARB
+2025-04-09 20:18:59,174 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTES_ARB
+2025-04-09 20:18:59,174 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB
+2025-04-09 20:18:59,174 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.GLhalfARB
+2025-04-09 20:18:59,174 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glGetObjectParameterivARB
+2025-04-09 20:18:59,175 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_shader.glInitVertexShaderARB
+2025-04-09 20:18:59,175 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_ARB
+2025-04-09 20:18:59,175 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_CURRENT_MATRIX_STACK_DEPTH_ARB
+2025-04-09 20:18:59,175 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX0_ARB
+2025-04-09 20:18:59,175 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX10_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX11_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX12_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX13_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX14_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX15_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX16_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX17_ARB
+2025-04-09 20:18:59,176 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX18_ARB
+2025-04-09 20:18:59,177 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX19_ARB
+2025-04-09 20:18:59,177 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX1_ARB
+2025-04-09 20:18:59,177 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX20_ARB
+2025-04-09 20:18:59,177 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX21_ARB
+2025-04-09 20:18:59,177 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX22_ARB
+2025-04-09 20:18:59,177 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX23_ARB
+2025-04-09 20:18:59,177 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX24_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX25_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX26_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX27_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX28_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX29_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX2_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX30_ARB
+2025-04-09 20:18:59,178 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX31_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX3_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX4_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX5_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX6_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX7_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX8_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MATRIX9_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 20:18:59,180 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ATTRIBS_ARB
+2025-04-09 20:18:59,181 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_ENV_PARAMETERS_ARB
+2025-04-09 20:18:59,181 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 20:18:59,181 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB
+2025-04-09 20:18:59,181 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRICES_ARB
+2025-04-09 20:18:59,181 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB
+2025-04-09 20:18:59,181 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_PARAMETERS_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_MAX_PROGRAM_TEMPORARIES_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ADDRESS_REGISTERS_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ATTRIBS_ARB
+2025-04-09 20:18:59,182 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_BINDING_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_POSITION_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_ERROR_STRING_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_FORMAT_ASCII_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_INSTRUCTIONS_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_LENGTH_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB
+2025-04-09 20:18:59,183 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_ATTRIBS_ARB
+2025-04-09 20:18:59,184 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB
+2025-04-09 20:18:59,184 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_PARAMETERS_ARB
+2025-04-09 20:18:59,184 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_NATIVE_TEMPORARIES_ARB
+2025-04-09 20:18:59,184 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_PARAMETERS_ARB
+2025-04-09 20:18:59,184 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_STRING_ARB
+2025-04-09 20:18:59,184 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_TEMPORARIES_ARB
+2025-04-09 20:18:59,184 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB
+2025-04-09 20:18:59,185 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_TRANSPOSE_CURRENT_MATRIX_ARB
+2025-04-09 20:18:59,185 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GL_VERTEX_PROGRAM_ARB
+2025-04-09 20:18:59,185 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.GLhalfARB
+2025-04-09 20:18:59,185 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glBindProgramARB
+2025-04-09 20:18:59,185 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glDeleteProgramsARB
+2025-04-09 20:18:59,185 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGenProgramsARB
+2025-04-09 20:18:59,185 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterdvARB
+2025-04-09 20:18:59,186 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramEnvParameterfvARB
+2025-04-09 20:18:59,186 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterdvARB
+2025-04-09 20:18:59,186 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramLocalParameterfvARB
+2025-04-09 20:18:59,186 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramStringARB
+2025-04-09 20:18:59,187 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glGetProgramivARB
+2025-04-09 20:18:59,187 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glInitVertexProgramARB
+2025-04-09 20:18:59,187 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dARB
+2025-04-09 20:18:59,187 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4dvARB
+2025-04-09 20:18:59,187 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fARB
+2025-04-09 20:18:59,187 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramEnvParameter4fvARB
+2025-04-09 20:18:59,187 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dARB
+2025-04-09 20:18:59,188 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4dvARB
+2025-04-09 20:18:59,188 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fARB
+2025-04-09 20:18:59,188 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramLocalParameter4fvARB
+2025-04-09 20:18:59,188 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.vertex_program.glProgramStringARB
+2025-04-09 20:18:59,188 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB
+2025-04-09 20:18:59,188 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB
+2025-04-09 20:18:59,188 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GL_MAX_VERTEX_VARYING_COMPONENTS_ARB
+2025-04-09 20:18:59,189 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.GLhalfARB
+2025-04-09 20:18:59,189 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glFramebufferTextureFaceARB
+2025-04-09 20:18:59,189 - OpenGL.GL.shaders - DEBUG - Found no alternate for: OpenGL.GL.ARB.geometry_shader4.glInitGeometryShader4ARB
+2025-04-09 20:18:59,192 - root - INFO - Renderer模块可用
+2025-04-09 20:18:59,199 - root - INFO - PetManager模块可用
+2025-04-09 20:18:59,833 - root - INFO - OpenGL供应商: NVIDIA Corporation
+2025-04-09 20:18:59,833 - root - INFO - OpenGL渲染器: NVIDIA GeForce RTX 2080 Ti/PCIe/SSE2
+2025-04-09 20:18:59,833 - root - INFO - OpenGL版本: 4.6.0 NVIDIA 572.83
+2025-04-09 20:18:59,856 - root - INFO - === 检查关键路径 ===
+2025-04-09 20:18:59,856 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet 存在: True
+2025-04-09 20:18:59,856 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core 存在: True
+2025-04-09 20:18:59,857 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\renderer.py 存在: True
+2025-04-09 20:18:59,857 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\window.py 存在: True
+2025-04-09 20:18:59,857 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan 存在: True
+2025-04-09 20:18:59,857 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime 存在: True
+2025-04-09 20:18:59,858 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime\unitychan.model3.json 存在: True
+2025-04-09 20:18:59,858 - root - INFO - 文件检查: D:\AI\ai_voice\models\Unitychan 存在: False
+2025-04-09 20:18:59,859 - root - INFO - === 开始初始化PetManager ===
+2025-04-09 20:18:59,861 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-09 20:18:59,861 - root - INFO - 创建PetManager实例...
+2025-04-09 20:18:59,862 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-09 20:18:59,863 - root - INFO - 启动桌面宠物...
+2025-04-09 20:18:59,863 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-09 20:18:59,866 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-09 20:18:59,866 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-09 20:18:59,867 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-09 20:18:59,903 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-09 20:18:59,903 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-09 20:18:59,905 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-09 20:18:59,946 - root - INFO - 着色器编译成功
+2025-04-09 20:18:59,957 - root - INFO - 已创建调试网格和纹理
+2025-04-09 20:18:59,957 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-09 20:18:59,960 - desktop_pet.pet_manager - DEBUG - Loading motion: ./Unitychan/runtime\motion\idle_01.motion3.json
+2025-04-10 21:35:57,065 - root - INFO - 开始桌面宠物测试
+2025-04-10 21:35:57,065 - root - INFO - === 检查关键模块导入 ===
+2025-04-10 21:35:57,066 - root - INFO - OpenGL版本: 3.1.9
+2025-04-10 21:35:57,066 - root - INFO - OpenGL.GL模块可用
+2025-04-10 21:35:57,066 - root - INFO - PIL可用
+2025-04-10 21:35:57,068 - root - INFO - ParameterManager模块可用
+2025-04-10 21:35:57,097 - root - INFO - PetWindow模块可用
+2025-04-10 21:35:57,106 - root - INFO - Renderer模块可用
+2025-04-10 21:35:57,114 - root - INFO - PetManager模块可用
+2025-04-10 21:35:57,541 - root - INFO - OpenGL供应商: NVIDIA Corporation
+2025-04-10 21:35:57,542 - root - INFO - OpenGL渲染器: NVIDIA GeForce RTX 2080 Ti/PCIe/SSE2
+2025-04-10 21:35:57,542 - root - INFO - OpenGL版本: 4.6.0 NVIDIA 572.83
+2025-04-10 21:35:57,563 - root - INFO - === 检查关键路径 ===
+2025-04-10 21:35:57,564 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet 存在: True
+2025-04-10 21:35:57,564 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core 存在: True
+2025-04-10 21:35:57,564 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\renderer.py 存在: True
+2025-04-10 21:35:57,564 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\window.py 存在: True
+2025-04-10 21:35:57,565 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan 存在: True
+2025-04-10 21:35:57,565 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime 存在: True
+2025-04-10 21:35:57,565 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime\unitychan.model3.json 存在: True
+2025-04-10 21:35:57,565 - root - INFO - 文件检查: D:\AI\ai_voice\models\Unitychan 存在: False
+2025-04-10 21:35:57,565 - root - INFO - === 开始初始化PetManager ===
+2025-04-10 21:35:57,566 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-10 21:35:57,566 - root - INFO - 创建PetManager实例...
+2025-04-10 21:35:57,573 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-10 21:35:57,575 - root - INFO - 启动桌面宠物...
+2025-04-10 21:35:57,575 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-10 21:35:57,577 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-10 21:35:57,578 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-10 21:35:57,579 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-10 21:35:57,617 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-10 21:35:57,617 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-10 21:35:57,619 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-10 21:35:57,635 - root - INFO - 着色器编译成功
+2025-04-10 21:35:57,667 - root - INFO - 已创建调试网格和纹理
+2025-04-10 21:35:57,668 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-10 21:35:57,669 - desktop_pet.pet_manager - DEBUG - Loading motion: ./Unitychan/runtime\motion\idle_01.motion3.json
+2025-04-11 13:14:18,193 - root - INFO - 开始桌面宠物测试
+2025-04-11 13:14:18,194 - root - INFO - === 检查关键模块导入 ===
+2025-04-11 13:14:18,194 - root - INFO - OpenGL版本: 3.1.9
+2025-04-11 13:14:18,194 - root - INFO - OpenGL.GL模块可用
+2025-04-11 13:14:18,194 - root - INFO - PIL可用
+2025-04-11 13:14:18,197 - root - INFO - ParameterManager模块可用
+2025-04-11 13:14:18,239 - root - INFO - PetWindow模块可用
+2025-04-11 13:14:18,254 - root - INFO - Renderer模块可用
+2025-04-11 13:14:18,261 - root - INFO - PetManager模块可用
+2025-04-11 13:14:19,561 - root - INFO - OpenGL供应商: NVIDIA Corporation
+2025-04-11 13:14:19,561 - root - INFO - OpenGL渲染器: NVIDIA GeForce RTX 2080 Ti/PCIe/SSE2
+2025-04-11 13:14:19,561 - root - INFO - OpenGL版本: 4.6.0 NVIDIA 572.83
+2025-04-11 13:14:19,567 - root - INFO - === 检查关键路径 ===
+2025-04-11 13:14:19,567 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet 存在: True
+2025-04-11 13:14:19,568 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core 存在: True
+2025-04-11 13:14:19,568 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\renderer.py 存在: True
+2025-04-11 13:14:19,568 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\window.py 存在: True
+2025-04-11 13:14:19,568 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan 存在: True
+2025-04-11 13:14:19,569 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime 存在: True
+2025-04-11 13:14:19,569 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime\unitychan.model3.json 存在: True
+2025-04-11 13:14:19,569 - root - INFO - 文件检查: D:\AI\ai_voice\models\Unitychan 存在: False
+2025-04-11 13:14:19,569 - root - INFO - === 开始初始化PetManager ===
+2025-04-11 13:14:19,570 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-11 13:14:19,570 - root - INFO - 创建PetManager实例...
+2025-04-11 13:14:19,578 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-11 13:14:19,579 - root - INFO - 启动桌面宠物...
+2025-04-11 13:14:19,579 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-11 13:14:19,582 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-11 13:14:19,582 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-11 13:14:19,582 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-11 13:14:19,607 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-11 13:14:19,607 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-11 13:14:19,608 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-11 13:14:19,667 - root - INFO - 着色器编译成功
+2025-04-11 13:14:19,701 - root - INFO - 已创建调试网格和纹理
+2025-04-11 13:14:19,701 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-11 13:14:19,717 - desktop_pet.pet_manager - DEBUG - Loading motion: ./Unitychan/runtime\motion\idle_01.motion3.json
+2025-04-11 13:31:28,221 - root - INFO - 开始桌面宠物测试
+2025-04-11 13:31:28,222 - root - INFO - === 检查关键模块导入 ===
+2025-04-11 13:31:28,222 - root - INFO - OpenGL版本: 3.1.9
+2025-04-11 13:31:28,222 - root - INFO - OpenGL.GL模块可用
+2025-04-11 13:31:28,222 - root - INFO - PIL可用
+2025-04-11 13:31:28,224 - root - INFO - ParameterManager模块可用
+2025-04-11 13:31:28,238 - root - INFO - PetWindow模块可用
+2025-04-11 13:31:28,247 - root - INFO - Renderer模块可用
+2025-04-11 13:31:28,257 - root - INFO - PetManager模块可用
+2025-04-11 13:31:28,544 - root - INFO - OpenGL供应商: NVIDIA Corporation
+2025-04-11 13:31:28,544 - root - INFO - OpenGL渲染器: NVIDIA GeForce RTX 2080 Ti/PCIe/SSE2
+2025-04-11 13:31:28,544 - root - INFO - OpenGL版本: 4.6.0 NVIDIA 572.83
+2025-04-11 13:31:28,565 - root - INFO - === 检查关键路径 ===
+2025-04-11 13:31:28,565 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet 存在: True
+2025-04-11 13:31:28,565 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core 存在: True
+2025-04-11 13:31:28,566 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\renderer.py 存在: True
+2025-04-11 13:31:28,566 - root - INFO - 文件检查: D:\AI\ai_voice\desktop_pet\core\window.py 存在: True
+2025-04-11 13:31:28,566 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan 存在: True
+2025-04-11 13:31:28,566 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime 存在: True
+2025-04-11 13:31:28,567 - root - INFO - 文件检查: D:\AI\ai_voice\Unitychan\runtime\unitychan.model3.json 存在: True
+2025-04-11 13:31:28,567 - root - INFO - 文件检查: D:\AI\ai_voice\models\Unitychan 存在: False
+2025-04-11 13:31:28,567 - root - INFO - === 开始初始化PetManager ===
+2025-04-11 13:31:28,567 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-11 13:31:28,568 - root - INFO - 创建PetManager实例...
+2025-04-11 13:31:28,573 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-11 13:31:28,574 - root - INFO - 启动桌面宠物...
+2025-04-11 13:31:28,574 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-11 13:31:28,578 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-11 13:31:28,578 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-11 13:31:28,578 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-11 13:31:28,622 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-11 13:31:28,622 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-11 13:31:28,624 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-11 13:31:28,633 - root - INFO - 着色器编译成功
+2025-04-11 13:31:28,648 - root - INFO - 已创建调试网格和纹理
+2025-04-11 13:31:28,649 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-11 13:31:28,649 - desktop_pet.pet_manager - ERROR - Failed to start desktop pet: PetManager.load_model() missing 1 required positional argument: 'model_path'
+2025-04-11 13:31:30,177 - root - INFO - === 桌面宠物状态检查 ===
+2025-04-11 13:31:30,177 - root - INFO - 窗口未创建
+2025-04-11 13:31:30,177 - root - INFO - 渲染器存在: 是
+2025-04-11 13:31:30,177 - root - INFO - 渲染器初始化: True
+2025-04-11 13:35:17,766 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-11 13:35:17,766 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-11 13:35:17,767 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-11 13:35:17,767 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-11 13:35:17,767 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-11 13:35:18,010 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-11 13:35:18,010 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-11 13:35:18,012 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-11 13:35:18,020 - root - INFO - 着色器编译成功
+2025-04-11 13:35:18,022 - root - INFO - 已创建调试网格和纹理
+2025-04-11 13:35:18,022 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-11 13:35:18,022 - desktop_pet.pet_manager - ERROR - Failed to start desktop pet: PetManager.load_model() missing 1 required positional argument: 'model_path'
+2025-04-11 13:38:36,193 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-11 13:38:36,193 - root - INFO - 使用模型路径: ./Unitychan/runtime/unitychan.model3.json
+2025-04-11 13:38:36,193 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-11 13:38:36,194 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-11 13:38:36,194 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-11 13:38:36,194 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-11 13:38:36,432 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-11 13:38:36,432 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-11 13:38:36,433 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-11 13:38:36,441 - root - INFO - 着色器编译成功
+2025-04-11 13:38:36,443 - root - INFO - 已创建调试网格和纹理
+2025-04-11 13:38:36,443 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-11 13:38:36,444 - desktop_pet.pet_manager - ERROR - Failed to start desktop pet: PetManager.load_model() missing 1 required positional argument: 'model_path'
+2025-04-11 13:38:36,449 - root - INFO - 已设置模型目录: D:\AI\ai_voice\Unitychan\runtime
+2025-04-11 13:38:36,450 - root - ERROR - 加载模型失败: 'PetManager' object has no attribute 'is_valid_model'
+2025-04-11 13:38:36,451 - root - ERROR - Traceback (most recent call last):
+  File "d:\AI\ai_voice\desktop_pet\pet_manager.py", line 342, in load_model
+    if self.is_valid_model(model_data):
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PetManager' object has no attribute 'is_valid_model'
+
+2025-04-11 13:38:36,452 - root - INFO - 已设置模型目录: D:\AI\ai_voice\Unitychan\runtime
+2025-04-11 13:38:36,452 - desktop_pet.core.renderer - INFO - Loading model with 0 parts
+2025-04-11 13:38:36,452 - desktop_pet.core.renderer - INFO - Model loaded with 0 valid parts
+2025-04-11 13:38:36,454 - desktop_pet.pet_manager - DEBUG - Loading motion: ./Unitychan/runtime\motion\idle_01.motion3.json
+2025-04-11 13:41:25,101 - root - INFO - === 开始初始化 ===
+2025-04-11 13:41:25,123 - root - INFO - 初始化渲染器...
+2025-04-11 13:41:25,137 - desktop_pet.core.renderer - ERROR - OpenGL渲染器初始化失败: GLError(
+	err = 1282,
+	description = b'\xce\xde\xd0\xa7\xb2\xd9\xd7\xf7',
+	baseOperation = glClearColor,
+	cArguments = (0.0, 0.0, 0.0, 0.0)
+)
+2025-04-11 13:41:33,980 - root - INFO - 加载模型文件: ./Unitychan/runtime/unitychan.model3.json
+2025-04-11 13:41:33,981 - root - INFO - 模型目录: D:\AI\ai_voice\Unitychan\runtime
+2025-04-11 13:41:33,981 - desktop_pet.core.renderer - INFO - Loading model with 0 parts
+2025-04-11 13:41:33,981 - desktop_pet.core.renderer - INFO - Model loaded with 0 valid parts
+2025-04-11 13:41:33,981 - root - INFO - 模型加载成功
+2025-04-11 13:41:33,982 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-11 13:41:33,982 - root - INFO - 启动桌面宠物窗口...
+2025-04-11 13:41:33,982 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-11 13:41:33,983 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-11 13:41:33,984 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-11 13:41:33,984 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-11 13:41:34,205 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-11 13:41:34,205 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-11 13:41:34,206 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-11 13:41:34,219 - root - INFO - 着色器编译成功
+2025-04-11 13:41:34,221 - root - INFO - 已创建调试网格和纹理
+2025-04-11 13:41:34,221 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-11 13:41:34,221 - desktop_pet.pet_manager - ERROR - Failed to start desktop pet: PetManager.load_model() missing 1 required positional argument: 'model_path'
+2025-04-11 13:41:34,228 - root - INFO - 开始事件循环
+2025-04-11 13:47:22,550 - root - INFO - === 开始初始化 ===
+2025-04-11 13:47:22,768 - root - INFO - 已创建临时OpenGL上下文
+2025-04-11 13:47:22,771 - root - INFO - 创建配置文件: C:\Users\user/.desktop_pet_config.json
+2025-04-11 13:47:22,789 - desktop_pet.utils.config - INFO - Configuration loaded from C:\Users\user\.desktop_pet_config.json
+2025-04-11 13:47:22,792 - desktop_pet.core.window - INFO - 创建窗口，大小: 400x600
+2025-04-11 13:47:22,793 - desktop_pet.core.window - INFO - 窗口属性已设置
+2025-04-11 13:47:22,793 - desktop_pet.core.window - INFO - 初始化OpenGL窗口
+2025-04-11 13:47:22,794 - desktop_pet.core.window - INFO - 已设置OpenGL格式
+2025-04-11 13:47:22,831 - desktop_pet.core.window - INFO - 设置渲染器
+2025-04-11 13:47:22,831 - desktop_pet.core.window - INFO - 正在初始化OpenGL上下文
+2025-04-11 13:47:22,832 - desktop_pet.core.window - INFO - 正在初始化渲染器
+2025-04-11 13:47:22,840 - root - INFO - 着色器编译成功
+2025-04-11 13:47:22,842 - root - INFO - 已创建调试网格和纹理
+2025-04-11 13:47:22,842 - desktop_pet.core.renderer - INFO - OpenGL渲染器初始化成功
+2025-04-11 13:47:22,843 - root - INFO - 已设置模型目录: D:\AI\ai_voice\Unitychan\runtime
+2025-04-11 13:47:22,843 - root - ERROR - 模型数据缺少Parts部分
+2025-04-11 13:47:22,843 - root - ERROR - 无效的模型文件: ./Unitychan/runtime/unitychan.model3.json
+2025-04-11 13:47:22,850 - root - INFO - 开始事件循环

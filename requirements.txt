@@ -1,0 +1,13 @@
+PyQt5>=5.15.9
+edge-tts>=6.1.7
+pygame>=2.5.2
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+simpleaudio>=1.0.4
+numpy>=1.24.3
+requests>=2.31.0
+pywin32>=306;platform_system=="Windows"
+pyaudio>=0.2.11
+# 语音识别和合成相关依赖
+SpeechRecognition>=3.8.1
+pyopengl>=3.1.0

@@ -1,0 +1,15 @@
+{
+    "ollama_url": "http://localhost:11434",
+    "api_key": "",
+    "model": "llava:latest",
+    "language": "zh-CN",
+    "voice_rate": 180,
+    "voice_volume": 0.9,
+    "use_ai_voice": true,
+    "ai_voice": "zh-CN-XiaoxiaoNeural",
+    "system_voice": null,
+    "listen_timeout": 5,
+    "energy_threshold": 300,
+    "pause_threshold": 0.8,
+    "test_key": "test_value"
+}
